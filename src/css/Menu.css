@@ -1,0 +1,51 @@
+.menu-container{
+    display: flex;
+}
+
+.menu{
+    background-color: #E3F2FD;
+    height: 190px;
+    width: 135px;
+}
+
+.leaf{
+    background-color: #E3F2FD;
+    border-left: 1px solid black;
+    height: 190px;
+    width: 135px;
+}
+
+h3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    width:100%;
+    padding: 0px;
+    list-style: none;
+}
+
+li{
+    padding: 3px 0px;
+}
+
+.active{
+    padding-left: 5px;
+    position: relative;
+    background-color: rgb(55, 150, 220);
+    color: white;
+}
+
+.active::after{
+    position: absolute;
+    content:">";
+    right: 2px;
+}
+
+.leaf-img{
+    border:2px solid black ;
+    height: 188px;
+    width: 135px;
+}

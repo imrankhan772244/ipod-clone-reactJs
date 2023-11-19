@@ -1,0 +1,13 @@
+.case{
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;
+    /* background-color: rgb(210,210,210); */
+    background-image: url(https://images.unsplash.com/photo-1528459801416-a9…DN8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&q=60&w=500);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    box-shadow: inset 0 0 20px 3px black;
+    -webkit-box-reflect: below 5px linear-gradient(transparent,transparent,rgba(0,0,0,.26666666666666666));
+}

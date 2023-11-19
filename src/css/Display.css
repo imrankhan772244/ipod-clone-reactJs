@@ -1,0 +1,28 @@
+.display{
+    background-size:cover ;
+    background-position: center;
+    width: 270px;
+    height: 210px;
+    border: 1.5px solid black;
+    margin-top: 25px;
+    /* display:flex ; */
+    /* flex-direction: column; */
+    border-radius: 2px;
+
+    overflow: hidden;
+}
+
+.blank-div{
+    width: 270px;
+    height: 200px;
+    background-color: #E3F2FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.empty-text{
+    margin: 5px;
+    text-align: center;
+}

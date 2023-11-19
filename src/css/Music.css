@@ -1,0 +1,13 @@
+.music{
+    width: 270px;
+    height: 190px;
+    background-color: #e3f2fd;
+}
+
+.music #song{
+    padding: 0px 0px;
+}
+
+h3{
+    margin: 1px;
+}
