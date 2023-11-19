@@ -1,0 +1,6 @@
+This is a clone of ipod project which i created recently.
+All the features are same as the were in ipod.
+I have used ZingTouch library in this project.
+
+To unlock ipod just press center button and after that navigate to the menu to slide into menu options just press the menu button and drag the in which direction you want to go.
+and to select any option press the center button and to come back press menu button again.

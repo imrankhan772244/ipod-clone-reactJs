@@ -27,7 +27,7 @@ class App extends React.Component {
         songItemsUrl: [song1, song2, song3,song4,song5,],  //songs list
         songImgItemsUrl: [song1Img, song2Img, song3Img,song4Img,song5Img,],  //song images list
         wallpaperItems: [Wallpaper1, Wallpaper2, Wallpaper3], //wallpapers
-        songItems: ["Kacche kata dunga", "Jaat clan", "Panni Alli","Ninja Hathori","Aasma ko chukar dekho- Hanuman"], //song names
+        songItems: ["Skechers", "Jaat clan", "Shape Of You","Ninja Hathori","Aasma ko chukar dekho- Hanuman"], //song names
         songIndex: 0, //current song
         lengthMenuKey: { "-1": 3, 1: 2, 4: 4, 8: 4, 3: 2, 9: 3 ,10:2},  //length of a particular menu
         menuMapping: { "-1": [0, 1, 2, 3], 1: [4, 5, 6], 3: [8, 9, 10] }, //which menu can be rendered by key menu
