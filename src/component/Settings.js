@@ -4,7 +4,7 @@ class Settings extends React.Component {
     render() {
         const {active} = this.props;
         return (
-            <div className="settings">
+            <div className="settings" style={{width:"90%",height:"90%"}}>
                 <h2>Settings</h2>
                 <ul>
                     {active===0?<li className="active">Themes</li>:<li>Themes</li>}

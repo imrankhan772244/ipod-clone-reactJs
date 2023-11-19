@@ -10,8 +10,8 @@
 
 .leaf{
     background-color: #E3F2FD;
-    border-left: 1px solid black;
-    height: 190px;
+    /* border-left: 1px solid black; */
+    height: inherit;
     width: 135px;
 }
 
@@ -45,7 +45,26 @@ li{
 }
 
 .leaf-img{
-    border:2px solid black ;
-    height: 188px;
+    /* border-top: none;
+    border-bottom: none; */
+    border-left:1px solid black ;
+    border-bottom:1px solid black ;
+    height: 190px;
     width: 135px;
+    
+}
+
+.setting-leaf-img{
+    height: 190px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left:1px solid black ;
+    border-bottom:1px solid black ;
+}
+
+.leaf-img-settings{
+    width: 80%;
+    height: 80%;
 }
