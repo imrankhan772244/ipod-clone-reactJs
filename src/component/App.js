@@ -130,9 +130,7 @@ class App extends React.Component {
       }
       let min = 0;
       let max = 0;
-  
       max = this.state.lengthMenuKey[menu];
-  
       if (direction === 1) {
         if (this.state.active >= max) {
           this.setState({ active: min })
